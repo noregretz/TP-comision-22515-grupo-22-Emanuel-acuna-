@@ -216,9 +216,9 @@ footer{
     color: white;
 }
 
-.item_footer iframe{
+.item_footer #cat > img{
     width: 400px;
-    height: 350px;
+    height: 300px;
 }
  
 .social_media{
