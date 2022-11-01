@@ -7,20 +7,6 @@ async function getDog(){
     console.log(data);
     showdata(data.message);
 }
-// getDog();
-
-// function showdata(dogimage){
-//     document.getElementById("dog").innerHTML = `
-//     <img src="${dogimage}" alt="">
-//     `
-// }
-
-
-// dogbtn.addEventListener("click",()=>{
-// getDog();
-// });
-
-
 
 async function getCat(){
     const resp = await fetch("https://aws.random.cat/meow");
